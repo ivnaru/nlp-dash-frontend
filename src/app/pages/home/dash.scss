@@ -1,0 +1,26 @@
+.divider {
+  width: 1px;
+  height: 28px;
+  margin: 4px;
+}
+
+.groupBtn {
+  padding: 10px 0;
+}
+
+.freq_buttons {
+  display: flex;
+  align-items: center;
+
+  button {
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 5px;
+
+    &.active {
+      background: #80ADF8;
+      color: white;
+    }
+  }
+}
